@@ -1,0 +1,55 @@
+
+Microsoft Software Download Listing
+https://msdl.gravesoft.dev/#
+
+
+(1) Press Win+R and type: regedit  
+
+(2) In the Registry Editor left pane, expand the following directory: \HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\WindowsUpdate\UX\Settings  
+
+(3) In the right pane, create a new DWORD (32-bit) Value  
+
+(4) Rename it to: FlightSettingsMaxPauseDays  
+
+(5) Double-click to open, change the Base to Decimal, and set the Value data to the number of days you want to pause updates, for example 20000, then click OK.  
+
+(6) Finally, open the Start menu, go to Settings, open Windows Update, and set Pause updates to the period you just configured (if it does not appear, close Settings and open it again)  
+
+
+Quick method  
+
+(1) Search for CMD, find “Command Prompt,” right-click and select “Run as administrator”  
+
+(2) Press Enter after typing: reg add "HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\WindowsUpdate\UX\Settings" /v FlightSettingsMaxPauseDays /t reg_dword /d 20000 /f  
+
+(3) Finally, open the Start menu, go to Settings, open Windows Update, and set Pause updates to the period you just configured (if it does not appear, close Settings and open it again)  
+
+
+
+
+
+
+
+---
+
+
+（1）win+r运行输入：regedit
+
+（2）在注册表编辑左侧栏依次展开以下目录：\HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\WindowsUpdate\UX\Settings
+
+（3）在窗口右侧空白处创建新建一个：DWORD(32位)值
+
+（4）将其重命名为：FlightSettingsMaxPauseDays
+
+（5）在双击打开，基数改为十进制，数值数字改成你想暂停的天数：例如20000，然后点确定。
+
+（6）在最后打开开始菜单点设置，打开windows更新，找到暂停更新改成你刚刚设置好的周期（如果没有，请关闭设置在打开一次）
+
+
+快速做法
+
+（1）搜索CMD，找到“命令提示符”，点右键“以管理员身份运行”
+
+（2）输入回车：reg add "HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\WindowsUpdate\UX\Settings" /v FlightSettingsMaxPauseDays /t reg_dword /d 20000 /f
+
+（3）在最后打开开始菜单点设置，打开windows更新，找到暂停更新改成你刚刚设置好的周期（如果没有，请关闭设置在打开一次）

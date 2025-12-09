@@ -59,6 +59,8 @@ https://www.microsoft.com/zh-cn/software-download/windows10
 右键单击 ISO 文件，然后选择装载。
 双击 ISO 文件以查看其中的文件。双击 setup.exe，以启动 Windows 10 安装程序。
 <br>
+
+
 ⭐⭐⭐
 
 注意如果你想保留软件和文件，切记在点击setup.exe后有一步**一定要选择保留个人文件和应用**，虽然这是默认的。

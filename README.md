@@ -1,0 +1,1 @@
+直接解压最后那个 Win10_22H2_China_GGK_Chinese_Simplified_x64_ISO.zip （注意后缀是.zip的文件只有一个） 就行；确保所有分卷（.z01–.z55）和 .zip 在同一文件夹且文件名未被改动，然后用 7‑Zip/WinRAR/Winzip或其他解压软件直接右键Win10_22H2_China_GGK_Chinese_Simplified_x64_ISO.zip ，解压到什么什么文件夹（就跟单个压缩包加压的流程一样）来提取内容。

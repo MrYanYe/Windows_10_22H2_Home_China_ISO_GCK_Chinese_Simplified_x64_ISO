@@ -28,7 +28,7 @@ https://msdl.gravesoft.dev/#
 
 因为整个ISO文件有5个GB多，GitHub上传单个文件大小限制是100MB，所以我用了分卷压缩，每个卷100MB，放在了```Win10_22H2_Home_China_ISO_Split_Archive```这个文件夹里。
 
-最后的ISO文件应该是5,687,615,488字节，直接Download zip的话可能文件太大了不好下载，建议使用 git 的 **SSH** 进行仓库克隆，要不然太慢了<font color= #303c89f2>（具体怎么用SSH克隆Github仓库可以搜一下，特别简单，基本上下了Git就行了）</font>
+最后的ISO文件应该是5,687,615,488字节，直接Download zip的话可能文件太大了不好下载，建议使用 git 的 **SSH（注意不是HTTPS）** 进行仓库克隆，要不然太慢了<font color= #303c89f2>（具体怎么用SSH克隆Github仓库可以搜一下，特别简单，基本上下了Git就行了）</font>
 
 实测不用VPN，直连，SSH克隆也能有**5.8MB/s**左右的下载速度，还是挺快的，我花了16分钟就克隆下来了。
 

@@ -39,7 +39,7 @@ https://msdl.gravesoft.dev/#
 
 流程展示如下：
 
-克隆完仓库到本地后```Windows_10_22H2_Home_China_ISO_GCK_Chinese_Simplified_x64_ISO```这个文件夹里应该长这样，注意有一个.zip文件和.z01–.z55
+克隆完仓库到本地后```Win10_22H2_Home_China_ISO_Split_Archive```这个文件夹里应该长这样，注意有一个.zip文件和.z01–.z55
 ![](./README_images/wechat_2025-12-09_164304_878.png)
 
 右键.zip文件解压至文件夹
